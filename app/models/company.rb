@@ -3,7 +3,7 @@ class Company < ApplicationRecord
     #same thing as below
     
     # def contacts
-    #     Contact.where({company_id: id})
+    #     Contact.where({company_id:id})
     # end
 
 
