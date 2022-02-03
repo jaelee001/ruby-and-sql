@@ -36,7 +36,7 @@ for company in companies
     puts company.name
     contacts = company.contacts
     for contact in contacts
-        puts "#{contact.first_name} #{contact.last_name} - #{contact.email} - #{contact.company.name}"
+        puts "#{contact.first_name} #{contact.last_name} - #{contact.email}"
     end
     puts ""
 end
